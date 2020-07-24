@@ -1,2 +1,2 @@
-# Leetcode-Practice
+# Leetcode Practice
 Leetcode Coding Practice
