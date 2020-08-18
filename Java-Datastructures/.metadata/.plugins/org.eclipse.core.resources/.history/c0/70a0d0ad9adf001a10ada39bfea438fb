@@ -1,0 +1,33 @@
+package ds.doublylinkedlist;
+
+public class DubliLinkedList {
+
+	private Node first;
+	private Node last;
+	
+	public DubliLinkedList() {
+		
+		this.first = null;
+		this.last = null;
+	}
+	
+	public boolean isEmpty() {
+		return first == null;
+	}
+	
+	public void instertFirst(int data) {
+		
+		Node newNode = new Node();
+		
+		newNode.data = data;
+		
+		if(isEmpty()) {
+			last = newNode;
+		}else {
+			first.previous = newNode;
+		}
+		newNode.previous = first;
+		this.first = newNode;
+			
+	}
+}

@@ -1,0 +1,20 @@
+package ds.reversestring;
+
+public class reversestring {
+
+	static StringBuffer s = new StringBuffer("My name is Aninda");
+	public static void main(String[] args) {
+		
+		int i =0;
+		
+		while (i< s.length()) {
+			
+			if (s.charAt(i)== ' ') {
+				
+			}
+		}
+		
+
+	}
+
+}

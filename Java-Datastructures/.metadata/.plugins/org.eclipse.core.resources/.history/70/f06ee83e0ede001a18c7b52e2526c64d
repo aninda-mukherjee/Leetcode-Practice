@@ -1,0 +1,22 @@
+package ds.circularlinkedlist;
+
+//import ds.singlylinkedlist.SinglyLinkedList;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		
+		CircularLinkedList myList = new CircularLinkedList();
+		myList.insertFirst(100);
+		myList.insertFirst(44);
+		myList.insertFirst(33);
+		myList.insertFirst(32);
+		myList.insertFirst(122);
+		myList.insertLast(99999);
+		
+		myList.displayList();
+
+	}
+
+}

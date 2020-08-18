@@ -1,0 +1,22 @@
+package ds.singlylinkedlist;
+
+public class SinglyLinkedList {
+	
+	private Node first;
+	
+	public SinglyLinkedList() {
+		
+	}
+	
+	public boolean isEmpty() {
+		return (first == null);
+	}
+	
+	// used to insert at the beginning of the list
+	
+	public void insertFirst(int data) {
+		
+		
+	}
+
+}

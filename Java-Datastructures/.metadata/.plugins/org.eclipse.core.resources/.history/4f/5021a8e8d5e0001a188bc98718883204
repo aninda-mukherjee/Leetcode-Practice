@@ -1,0 +1,23 @@
+package ds.reversestring;
+
+public class reversestring {
+
+	static StringBuffer s = new StringBuffer("My name is Aninda");
+	public static void main(String[] args) {
+		
+		int i = 0;
+		int j = 0; // start index of a particular word
+		int w = 0; // last index of a particular word
+		
+		while (i< s.length()) {
+			
+			if (s.charAt(i)== ' ') {
+				
+				
+			}
+		}
+		
+
+	}
+
+}

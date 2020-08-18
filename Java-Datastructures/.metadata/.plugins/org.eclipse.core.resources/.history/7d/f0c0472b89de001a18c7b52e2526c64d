@@ -1,0 +1,13 @@
+package ds.doublylinkedlist;
+
+public class DubliLinkedList {
+
+	private Node first;
+	private Node last;
+	
+	public DubliLinkedList() {
+		
+		this.first = null;
+		this.last = null;
+	}
+}

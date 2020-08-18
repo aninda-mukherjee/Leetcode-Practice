@@ -1,0 +1,7 @@
+package dt.linkedlists;
+
+public class Node {
+
+	int date;
+	Node next = null;
+}

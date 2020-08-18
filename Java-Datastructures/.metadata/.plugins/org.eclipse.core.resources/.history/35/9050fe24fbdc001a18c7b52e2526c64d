@@ -1,0 +1,9 @@
+package dt.stack;
+
+public class Stack {
+
+	private int maxSize;
+	private long[] stackArray;
+	private int top;
+	
+}

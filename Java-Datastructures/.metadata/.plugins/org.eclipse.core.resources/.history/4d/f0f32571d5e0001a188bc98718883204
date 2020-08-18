@@ -1,0 +1,11 @@
+package ds.reversestring;
+
+public class reversestring {
+
+	static StringBuffer s = new StringBuffer("My name is Aninda");
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
