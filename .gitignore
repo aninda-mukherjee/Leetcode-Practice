@@ -1,9 +1,12 @@
 
 Java-Datastructures/learning-datastructures/bin/*
+Java-Datastructures/leaner-algorithms/bin/*
 Java-Datastructures/.metadata/*
 *.snap
 *.png
 *.ini
 *.log
 *.exec
-
+*.zip
+*.resources
+.DS_Store
